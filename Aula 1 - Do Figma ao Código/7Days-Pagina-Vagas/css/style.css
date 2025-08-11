@@ -8,7 +8,22 @@
 }
 
 body, a{
-    color: var(--dark-red);
+    color: var(--light-gray);
+}
+h4{
+  color: var(--dark-red)
+}
+h1{
+  color: var(--dark-blue)
+}
+h2{
+  color: var(--dark-red)
+}
+h5{
+  color: var(--dark-blue)
+}
+p{
+  color: var(--light-gray);
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -74,14 +89,74 @@ a {
 .container{
     max-width: 1280px;
     margin: 0 auto;
+    margin-top: 2rem;
+   
 }
 .main-nav{
     display:flex;
     justify-content: space-between;
-    
+    margin-top: 1rem;
     
     & .nav{
         display:flex;
         gap: 2rem
+        
     }
+    & .botoes-autenticacao{
+      display: flex;
+      gap: 2rem;
+      
+    }
+    & .cadastrar{
+      background-color: #8e2424;
+       padding: 0.25rem 1.5rem;
+       border-radius: 8px;
+       color: #fff;
+    }
+   
 }
+ .sobre-nos{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 8rem;
+      gap: 2rem;
+    }
+
+    .sobre-nos2{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 8rem;
+      gap: 2rem;
+    }
+
+    .cards{
+      display: flex;
+      gap: 2rem;
+      justify-content: space-around;
+      margin-top: 10rem;
+      
+    }
+    h2{
+      font-size: 45px;
+    }
+    h5{
+      font-size: 20px;
+    }
+    .infos{
+      text-align: center;
+      margin-top: 13rem;
+      
+      & .info2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7rem;
+        gap: 2rem;
+      }
+      & .funcionarios{
+        display: flex;
+      margin-left: 18rem;
+      }
+    }
+    
