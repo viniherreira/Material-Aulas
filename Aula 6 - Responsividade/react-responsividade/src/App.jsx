@@ -44,7 +44,7 @@ function App() {
 
       {/* Grid Auto: auto-fit vs auto-fill */}
       <section className="max-w-6xl mx-auto p-4">
-        <h2 className="text-2xl font-bold mb-4">Demo Auto-fit vs Auto-fill</h2>
+        <h2 className="text-2xl font-bold mb-4">Grid Auto-fit e Auto-fill</h2>
         <GridAuto />
       </section>
     </div>
